@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 10px;
+}
+
+.zone {
+    border: 2px solid #bbb;
+    text-align: center;
+    font-size: 10em;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.zone:hover {
+    transition: all 0.3s linear;
+    box-shadow: rgb(100, 95, 95) 0px 5px 15px, inset rgb(160, 157, 157) 0px -10px 20px;
+}
+
+.insta {
+    background: -o-linear-gradient(top, rgb(221, 42, 123) 0%, rgb(245, 133, 41) 100%);
+    background: -moz-linear-gradient(top, rgb(221, 42, 123) 0%, rgb(245, 133, 41) 100%);
+    background: -webkit-linear-gradient(top, rgb(221, 42, 123) 0%, rgb(245, 133, 41) 100%);
+    background: linear-gradient(top, rgb(221, 42, 123) 0%, rgb(245, 133, 41) 100%);
+}
+
+.snap {
+    background: linear-gradient(top, rgb(255, 252, 0) 0%, rgb(247, 247, 147) 100%);
+    background: -o-linear-gradient(top, rgb(255, 252, 0) 0%, rgb(247, 247, 147) 100%);
+    background: -moz-linear-gradient(top, rgb(255, 252, 0) 0%, rgb(247, 247, 147) 100%);
+    background: -webkit-linear-gradient(top, rgb(255, 252, 0) 0%, rgb(247, 247, 147) 100%);
+}
+
+.twitter {
+    background: -o-linear-gradient(top, rgb(0, 132, 180) 0%, rgb(8, 160, 233) 100%);
+    background: -moz-linear-gradient(top, rgb(0, 132, 180) 0%, rgb(8, 160, 233) 100%);
+    background: linear-gradient(top, rgb(0, 132, 180) 0%, rgb(8, 160, 233) 100%);
+    background: -webkit-linear-gradient(top, rgb(0, 132, 180) 0%, rgb(8, 160, 233) 100%);
+}
+
+.facebook {
+    background: -moz-linear-gradient(top, rgb(96, 96, 202) 0%, rgb(66, 103, 178) 100%);
+    background: -webkit-linear-gradient(top, rgb(96, 96, 202) 0%, rgb(66, 103, 178) 100%);
+    background: -o-linear-gradient(top, rgb(96, 96, 202) 0%, rgb(66, 103, 178) 100%);
+    background: linear-gradient(top, rgb(96, 96, 202) 0%, rgb(66, 103, 178) 100%);
+}
