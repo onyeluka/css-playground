@@ -1,2 +1,1 @@
-# css-playground
-social media cards using just css and html5
+Creating a social media cards using html and css.
